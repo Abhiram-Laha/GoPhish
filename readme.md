@@ -58,4 +58,4 @@ Never use GoPhish or similar tools against real users without proper authorizati
 ## 🔗 Related Blog  
 
 I wrote a detailed blog post explaining my experience with this phishing simulation:  
-👉 [Read it here]((https://medium.com/@abhiramlaha2015/one-click-away-lessons-from-my-gophish-experiment-a1720809c2e4))  
+👉 [Read it here](https://medium.com/@abhiramlaha2015/one-click-away-lessons-from-my-gophish-experiment-a1720809c2e4)
